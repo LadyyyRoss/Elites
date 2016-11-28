@@ -9,11 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>R-SPaCE</title>
+    <title>Elites</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
 
     <!-- Custom CSS -->
     <style>
@@ -34,51 +35,30 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
 
-                <a href="index.html" class="pull-left"><img src="res/logo.jpg"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="calendar.html">Calendar</a>
-                    </li>
-                    <li>
-                        <a href="upcoming.html">Upcoming Events</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
-                <ul class="nav navbar-nav navbar-right social">
-                    <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
     <!-- Page Content -->
     <div class="container">
         <section id="main-content">
             <div id="guts">
             <div class="row">
             <div class="col-lg-12">
-                <iframe src="https://snapwidget.com/embed/282456" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:1200px; height:600px"></iframe>
+                <div class="login-page">
+                    <div class="form">
+                        <form class="register-form">
+                            <input type="text" placeholder="name"/>
+                            <input type="password" placeholder="password"/>
+                            <input type="text" placeholder="email address"/>
+                            <button>create</button>
+                            <p class="message">Already registered? <a href="#">Sign In</a></p>
+                        </form>
+                        <form class="login-form">
+                            <input type="text" placeholder="username"/>
+                            <input type="password" placeholder="password"/>
+                            <button>login</button>
+                            <p class="message">Not registered? <a href="#">Create an account</a></p>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
                 </div>
@@ -96,6 +76,7 @@
     <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
     <script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
     <script type='text/javascript' src='js/dynamicpage.js'></script>
+
 
 </body>
 

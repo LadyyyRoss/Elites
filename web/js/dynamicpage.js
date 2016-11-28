@@ -39,3 +39,7 @@ $(function() {
     $(window).trigger('hashchange');
 
 });
+
+$('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});

@@ -78,7 +78,7 @@ public class CookieExample extends HttpServlet {
         out.println("<a href=\"../cookies.html\">");
         out.println("<img src=\"../images/code.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"view code\"></a>");
-        out.println("<a href=\"../index.html\">");
+        out.println("<a href=\"../login.html\">");
         out.println("<img src=\"../images/return.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"return\"></a>");
 
