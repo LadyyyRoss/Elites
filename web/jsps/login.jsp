@@ -21,7 +21,8 @@
 
 <jsp:forward page="/pages/index.html"/>
 
-<%}
+<%
+        }
         else
             out.println("Invalid login credentials");
     }
